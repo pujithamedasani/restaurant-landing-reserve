@@ -1,5 +1,6 @@
 import { Instagram, Facebook, Phone, MapPin } from "lucide-react";
 import { restaurant } from "@/lib/restaurant";
+import logoAsset from "@/assets/logo.png.asset.json";
 
 export function Footer() {
   return (
@@ -7,8 +8,11 @@ export function Footer() {
       <div className="container-px mx-auto max-w-7xl py-16 grid md:grid-cols-4 gap-10">
         <div className="md:col-span-2">
           <div className="flex items-center gap-2.5">
-            <span className="w-10 h-10 rounded-full bg-[var(--gradient-terra)] flex items-center justify-center text-cream font-display text-lg">
-            </span>
+            <img
+              src={logoAsset.url}
+              alt="Dakshina Ruchulu logo"
+              className="w-12 h-12 object-contain"
+            />
             <span className="font-display text-2xl text-charcoal">
               Dakshina <span className="text-terracotta-deep">Ruchulu</span>
             </span>
