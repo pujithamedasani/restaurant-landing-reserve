@@ -19,7 +19,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Experience authentic flavors at Dakshina Ruchulu, Vijayawada's highly-rated restaurant with 1,550+ Google reviews. Signature biryanis, coastal Andhra specials, family dining. Reserve your table on WhatsApp today.",
+          "Dakshina Ruchulu — Vijayawada's 4.4★ restaurant loved by 1,550+ guests. Signature biryanis, Andhra classics & warm family dining. Reserve via WhatsApp.",
       },
       {
         name: "keywords",
@@ -32,9 +32,13 @@ export const Route = createFileRoute("/")({
         content:
           "Vijayawada's favourite dining destination — 4.4★ from 1,550+ guests. Reserve on WhatsApp.",
       },
-      { property: "og:type", content: "restaurant" },
       { property: "og:url", content: "/" },
-      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Dakshina Ruchulu | Best Restaurant in Vijayawada" },
+      {
+        name: "twitter:description",
+        content:
+          "Vijayawada's favourite dining destination — 4.4★ from 1,550+ guests. Reserve on WhatsApp.",
+      },
     ],
     links: [
       { rel: "canonical", href: "/" },
