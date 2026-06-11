@@ -136,6 +136,7 @@ export function MenuSection() {
               <input
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
+                aria-label="Search menu dishes"
                 placeholder="Search dishes — biryani, paneer, prawns..."
                 className="w-full pl-11 pr-4 py-3 rounded-full bg-card border border-border text-sm text-charcoal placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-terracotta-deep/40"
               />
