@@ -39,7 +39,7 @@
   --secondary: var(--ivory);
   --secondary-foreground: var(--charcoal);
   --muted: var(--ivory);
-  --muted-foreground: oklch(0.45 0.01 60);
+  --muted-foreground: oklch(0.38 0.01 60);
   --accent: var(--sage);
   --accent-foreground: var(--charcoal);
   --destructive: oklch(0.577 0.245 27.325);

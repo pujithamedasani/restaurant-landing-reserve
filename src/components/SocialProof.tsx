@@ -95,7 +95,7 @@ export function SocialProof() {
             <p className="text-sm text-cream/70 mt-3 tracking-wider uppercase">
               Google Reviews
             </p>
-            <p className="text-xs text-cream/60 mt-2">From real, verified diners</p>
+            <p className="text-xs text-cream/80 mt-2">From real, verified diners</p>
           </motion.div>
 
           <motion.div
@@ -109,7 +109,7 @@ export function SocialProof() {
               <Counter value={95} suffix="%" />
             </div>
             <p className="text-sm text-muted-foreground mt-3">Recommend us to friends</p>
-            <p className="text-xs text-muted-foreground/80 mt-2">Family-friendly · Group dining</p>
+            <p className="text-xs text-muted-foreground mt-2">Family-friendly · Group dining</p>
           </motion.div>
         </div>
 
