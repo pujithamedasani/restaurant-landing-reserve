@@ -1,6 +1,6 @@
 import { Instagram, Facebook, Phone, MapPin } from "lucide-react";
 import { restaurant } from "@/lib/restaurant";
-import logoAsset from "@/assets/logo.png.asset.json";
+import newLogo from "@/assets/new-logo.svg";
 
 export function Footer() {
   return (
@@ -9,7 +9,7 @@ export function Footer() {
         <div className="md:col-span-2">
           <div className="flex items-center gap-2.5">
             <img
-              src={logoAsset.url}
+              src={newLogo}
               alt="Dakshina Ruchulu logo"
               className="w-12 h-12 object-contain"
             />

@@ -1,0 +1,58 @@
+<svg viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer dark teal circle -->
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#1a3a3a" stroke-width="8"/>
+
+  <!-- Orange ring -->
+  <circle cx="100" cy="100" r="82" fill="none" stroke="#ff9f1c" stroke-width="6"/>
+
+  <!-- Left green leaves -->
+  <ellipse cx="25" cy="110" rx="8" ry="18" fill="#7cb342" transform="rotate(-45 25 110)"/>
+  <ellipse cx="18" cy="130" rx="8" ry="18" fill="#9ccc65" transform="rotate(-30 18 130)"/>
+
+  <!-- Right green leaves -->
+  <ellipse cx="175" cy="110" rx="8" ry="18" fill="#7cb342" transform="rotate(45 175 110)"/>
+  <ellipse cx="182" cy="130" rx="8" ry="18" fill="#9ccc65" transform="rotate(30 182 130)"/>
+
+  <!-- Chef's hat -->
+  <ellipse cx="100" cy="35" rx="22" ry="28" fill="#ffc107"/>
+  <ellipse cx="100" cy="32" rx="20" ry="10" fill="#ffb300"/>
+  <rect x="75" y="58" width="50" height="6" fill="#ff8c00"/>
+
+  <!-- Fork (left) -->
+  <g>
+    <line x1="65" y1="75" x2="60" y2="130" stroke="#c41c3b" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="57" cy="75" r="2.5" fill="#c41c3b"/>
+    <circle cx="63" cy="75" r="2.5" fill="#c41c3b"/>
+    <circle cx="69" cy="75" r="2.5" fill="#c41c3b"/>
+    <line x1="57" y1="75" x2="55" y2="130" stroke="#c41c3b" stroke-width="3" stroke-linecap="round"/>
+    <line x1="63" y1="75" x2="62" y2="130" stroke="#c41c3b" stroke-width="3" stroke-linecap="round"/>
+    <line x1="69" y1="75" x2="68" y2="130" stroke="#c41c3b" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Knife (right) -->
+  <g>
+    <path d="M 135 75 Q 145 90 148 130" stroke="#c41c3b" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <line x1="135" y1="75" x2="137" y2="81" stroke="#c41c3b" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Cloche dome base -->
+  <ellipse cx="100" cy="135" rx="32" ry="8" fill="none" stroke="#c41c3b" stroke-width="2"/>
+
+  <!-- Cloche dome -->
+  <path d="M 68 135 Q 68 110 100 95 Q 132 110 132 135" fill="none" stroke="#c41c3b" stroke-width="3"/>
+  <ellipse cx="100" cy="133" rx="30" ry="6" fill="none" stroke="#c41c3b" stroke-width="2"/>
+
+  <!-- Cloche inner highlight -->
+  <path d="M 72 135 Q 72 115 100 102 Q 128 115 128 135" fill="none" stroke="#ff6b6b" stroke-width="2" opacity="0.6"/>
+
+  <!-- Handle on top of cloche -->
+  <circle cx="100" cy="85" r="4" fill="#c41c3b"/>
+  <line x1="100" y1="89" x2="100" y2="95" stroke="#c41c3b" stroke-width="2"/>
+
+  <!-- Red banner ribbon -->
+  <path d="M 40 155 Q 100 165 160 155 L 155 175 Q 100 185 45 175 Z" fill="#a71d2a"/>
+  <path d="M 40 155 Q 100 165 160 155 L 155 175 Q 100 185 45 175 Z" fill="none" stroke="#7d1620" stroke-width="1"/>
+
+  <!-- Banner text area (white space for text overlay) -->
+  <ellipse cx="100" cy="165" rx="55" ry="8" fill="#e8e8e8" opacity="0.3"/>
+</svg>

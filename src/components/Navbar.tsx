@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X, Phone } from "lucide-react";
 import { restaurant, waLink } from "@/lib/restaurant";
-import logoAsset from "@/assets/logo.png.asset.json";
+import newLogo from "@/assets/new-logo.svg";
 
 const links = [
   { href: "#menu", label: "Menu" },
@@ -33,7 +33,7 @@ export function Navbar() {
       <div className="container-px mx-auto max-w-7xl flex items-center justify-between h-16 md:h-20">
         <a href="#top" className="flex items-center gap-2 group">
           <img
-            src={logoAsset.url}
+            src={newLogo}
             alt="Dakshina Ruchulu logo"
             className="w-10 h-10 object-contain"
           />
