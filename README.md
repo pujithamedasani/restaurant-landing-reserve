@@ -371,4 +371,4 @@ Potential features for future versions:
 
 **Last Updated:** June 2026
 
-Built with ❤️ for Dakshina Ruchulu
+Built with ❤️ for Dakshina Ruchulu by Pujitha Medasani
