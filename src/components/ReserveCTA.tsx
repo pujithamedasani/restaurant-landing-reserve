@@ -51,7 +51,7 @@ export function ReserveCTA() {
             <Phone className="w-5 h-5" /> Call Restaurant
           </a>
         </div>
-        <p className="mt-8 text-xs text-cream/50 tracking-wider uppercase">
+        <p className="mt-8 text-xs text-cream/85 tracking-wider uppercase">
           ⭐ {restaurant.rating} · {restaurant.reviewsCount.toLocaleString()}+ Google Reviews
         </p>
       </div>
