@@ -18,6 +18,8 @@ export function Hero() {
         alt="Signature biryani at Dakshina Ruchulu"
         width={1920}
         height={1280}
+        fetchPriority="high"
+        decoding="async"
         className="absolute inset-0 w-full h-full object-cover scale-105"
       />
       <div className="absolute inset-0" style={{ background: "var(--gradient-hero)" }} />
