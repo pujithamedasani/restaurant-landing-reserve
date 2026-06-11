@@ -38,9 +38,9 @@ export function Hero() {
           </div>
 
           <h1 className="font-display text-balance text-5xl md:text-7xl lg:text-[5.5rem] leading-[1.02] font-medium">
-            Authentic Flavors.
+            Authentic South Indian Flavors at
             <br />
-            <span className="italic font-light text-terracotta">Memorable</span> Experiences.
+            <span className="italic font-light text-terracotta">Dakshina Ruchulu</span> Vijayawada
           </h1>
 
           <p className="mt-6 text-base md:text-xl text-cream/85 max-w-2xl text-balance">
