@@ -8,7 +8,6 @@ export function Footer() {
         <div className="md:col-span-2">
           <div className="flex items-center gap-2.5">
             <span className="w-10 h-10 rounded-full bg-[var(--gradient-terra)] flex items-center justify-center text-cream font-display text-lg">
-              {"\n\n"}
             </span>
             <span className="font-display text-2xl text-charcoal">
               Dakshina <span className="text-terracotta-deep">Ruchulu</span>

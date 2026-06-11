@@ -32,7 +32,6 @@ export function Navbar() {
       <div className="container-px mx-auto max-w-7xl flex items-center justify-between h-16 md:h-20">
         <a href="#top" className="flex items-center gap-2 group">
           <span className="w-9 h-9 rounded-full bg-[var(--gradient-terra)] flex items-center justify-center text-cream font-display text-lg shadow-[var(--shadow-soft)]">
-            {"\n\n"}
           </span>
           <span className="font-display text-lg md:text-xl text-charcoal leading-tight">
             Dakshina <span className="text-terracotta-deep">Ruchulu</span>
