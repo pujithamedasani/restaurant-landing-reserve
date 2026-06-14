@@ -16,4 +16,5 @@ export default defineConfig({
       "globalThis.RESTAURANT_BADGE_HIDDEN": "true",
     },
   },
+  nitro: true,
 });
