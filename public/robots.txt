@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://restaurantlandingpage.com/sitemap.xml
+Sitemap: https://restaurant-landing-reserve-pearl.vercel.app/sitemap.xml
