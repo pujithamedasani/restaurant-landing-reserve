@@ -1,22 +1,8 @@
 {
   "buildCommand": "npm run build",
-  "installCommand": "npm install",
-  "framework": null,
-  "env": {
-    "NODE_ENV": "production"
-  },
-  "functions": {
-    "dist/server/server.js": {
-      "runtime": "nodejs18.x",
-      "maxDuration": 60
-    }
-  },
-  "routes": [
-    {
-      "src": "/.*",
-      "dest": "dist/server/server.js"
-    }
-  ]
+  "installCommand": "npm install"
 }
+
+
 
 
